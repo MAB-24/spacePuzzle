@@ -157,3 +157,4 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 # SpacePuzzleChallengeFlutter
 # SpacePuzzleChallengeFlutter
 # SpacePuzzleChallengeFlutter
+# SpacePuzzleChallengeFlutter
