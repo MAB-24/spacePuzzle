@@ -4,3 +4,5 @@ The space slide puzzle is unique because the puzzle board rotates as the user tr
 
 Built for the Flutter Puzzle Challenge 
 # SpacePuzzleChallengeFlutter
+
+To test out, download with android studio and click run on default.
