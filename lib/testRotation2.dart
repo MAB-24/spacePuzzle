@@ -32,7 +32,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget>
   int _currentSliderValue = -3;
 
   late final AnimationController _controller = AnimationController(
-    duration: Duration(seconds: _currentSliderValue * -33), //3
+    duration: Duration(seconds: 3), //3
     vsync: this,
   )..repeat();
 
@@ -341,35 +341,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget>
                   ),
                 ),
 
-                /*Slider(
-                  value: _currentSliderValue.toDouble(),
 
-                  inactiveColor: Colors.white,
-                  thumbColor: Colors.amber ,
-                  activeColor: Colors.red[400],
-                  //So that max = fastest
-                  max: -3, //33
-                  min: -33,  //3
-                  divisions: 3,
-                  //Easy, medium, difficult, expert
-                  //label: _currentSliderValue.round().toString(),
-
-                  //label: _currentSliderValue.,
-                  onChanged: (double value) {
-                    setState(() {
-                      _currentSliderValue = value.toInt();
-                      if(_currentSliderValue == -33) {
-                        _controller.stop();
-                      } else {
-                        _controller.duration = Duration(seconds: _currentSliderValue * -1);
-                        if (_controller.isAnimating) _controller.forward();
-                        _controller.repeat();
-                      }
-
-
-                    });
-                  },
-                ),*/
 
 
               ],
